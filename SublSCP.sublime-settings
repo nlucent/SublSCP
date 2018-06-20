@@ -1,0 +1,11 @@
+{
+    "scp":"/usr/bin/scp",
+    "hosts":[
+                 "user@host1",
+                 "root@host2"
+            ],
+    "paths":{
+        "/local/path/ansible": "/remote/path/ansible",
+        "/local/path/2": "/remote/path/2"
+    }
+}

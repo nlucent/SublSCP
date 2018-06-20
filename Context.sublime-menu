@@ -1,0 +1,32 @@
+[
+    {
+        "caption": "SublSCP",
+        "children":
+        [
+            {
+                "caption": "SCP this file",
+                "command": "subl_scp"
+            },
+            {
+                "caption": "SCP this view",
+                "command": "subl_scp_all"
+            },
+            {
+                "caption": "Set SCP Host",
+                "command": "set_scp_host"
+            },
+            {
+                "caption": "Add SCP Host",
+                "command": "add_scp_host"
+            },
+            {
+                "caption": "Edit Settings",
+                "command": "edit_settings",
+                "args": {
+                    "base_file": "${packages}/SublSCP/SublSCP.sublime-settings",
+                    "default": "{\n$0\n}\n"
+                }
+            }
+        ]
+    }
+]

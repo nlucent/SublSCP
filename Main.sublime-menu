@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                // Include this information in case it is the only package using that menu
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "SublSCP",
+                        "children":
+                        [
+                            // Settings - Default
+                            {
+                                "caption": "Settings – User",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/SublSCP/SublSCP.sublime-settings",
+                                    "default": "{\n$0\n}\n"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
